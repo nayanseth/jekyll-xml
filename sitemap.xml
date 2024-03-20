@@ -11,7 +11,6 @@ layout: null
       {% if page.layout != 'redirect' %}
         <url>
           <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
-          <lastmod>{{ page.date | date: "%Y-%m-%d"}}</lastmod>
           <changefreq>monthly</changefreq>
         </url>
       {% endif %}
